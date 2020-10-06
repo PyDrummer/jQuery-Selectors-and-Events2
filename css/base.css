@@ -1,0 +1,84 @@
+body {
+  width: 960px;
+  margin: auto;
+  font-family: 'Bangers', cursive;
+}
+
+div > section > img {
+  max-width: 200px;
+  height: 200px;
+}
+/* navbar */
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: teal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Flex Box */
+
+div {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div > section {
+  width: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+h2 {
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+
+p {
+  max-width: 200px;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+/* source sited for footer: https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
